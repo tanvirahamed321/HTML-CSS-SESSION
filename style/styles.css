@@ -1,3 +1,64 @@
-h1{
-    color: blueviolet;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.hero {
+    align-items: center;
+    background-image: url('/images/lion.jpg');
+    background-size: cover;
+    background-position: bottom center;
+
+    height: 130vh;
+}
+
+.hero h1 {
+    color: azure;
+    font-size: 70px;
+    font-family: cursive;
+    /* word-spacing: 40px; */
+    letter-spacing: 40px;
+    text-align: left;
+    font-weight: 9;
+    padding-top: 30px;
+}
+.article{
+    width: 80%;
+    /* margin-right: auto;
+    margin-left: auto;
+    margin-top: 60px;
+    margin-bottom: 60px; */
+    margin: 60px auto;
+    border-width: 15px;
+    border-color: gold;
+    border-style: groove;
+    background-color: skyblue;
+    padding: 60px;
+}
+
+.article h1{
+    text-align: center;
+    font-size: 45px;
+    border-style: solid;
+    border-width: 2px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: gold;
+    padding-bottom: 30px;
+    margin-bottom: 60px;
+}
+
+.article p{
+    font-size: 28px;
+    line-height: 2em;
+}
+.king{
+    font-size: 80px;
 }
